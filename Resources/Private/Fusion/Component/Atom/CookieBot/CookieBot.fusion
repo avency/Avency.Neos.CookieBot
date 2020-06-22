@@ -1,0 +1,9 @@
+prototype(Avency.Neos.CookieBot:Component.Atom.CookieBot) < prototype(Neos.Fusion:Component) {
+    // API
+    scriptTag = ''
+
+    // Rendering
+    renderer = afx`
+        {props.scriptTag}
+    `
+}

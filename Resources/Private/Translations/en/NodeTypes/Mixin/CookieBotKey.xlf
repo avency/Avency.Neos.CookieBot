@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file original="" product-name="Avency.Neos.CookieBot" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="properties.cookieBotKey" xml:space="preserve" approved="yes">
+                <source>CookieBot Key</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

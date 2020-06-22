@@ -1,0 +1,16 @@
+# Enter CookieBot key here if you don't use the mixin
+#
+#Avency:
+#  Neos:
+#    CookieBot:
+#      key: ''
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        'Avency.Neos.CookieBot': true
+    userInterface:
+      translation:
+        autoInclude:
+          'Avency.Neos.CookieBot':
+            - 'NodeTypes/*'
