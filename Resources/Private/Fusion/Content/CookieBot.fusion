@@ -1,0 +1,9 @@
+prototype(Avency.Neos.CookieBot:Content.CookieBot) < prototype(Neos.Neos:ContentComponent) {
+    // Rendering
+    renderer = Avency.Neos.CookieBot:Component.Atom.CookieBot {
+        key = ${!String.isBlank(q(site).property('cookieBotKey')) ? q(site).property('cookieBotKey') : Configuration.setting('Avency.Neos.CookieBot.key')}
+
+        scriptTag = ${'<script id="CookieDeclaration" src="//consent.cookiebot.com/' + this.key + '/cd.js" type="text/javascript" async></script>'}
+        scriptTag.@if.enable = ${!String.isBlank(this.key)}
+    }
+}

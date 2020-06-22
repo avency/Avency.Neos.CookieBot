@@ -1,0 +1,9 @@
+prototype(Neos.Neos:Page) {
+    cookieBot = Neos.Fusion:Value {
+        key = ${!String.isBlank(q(site).property('cookieBotKey')) ? q(site).property('cookieBotKey') : Configuration.setting('Avency.Neos.CookieBot.key')}
+        value = ${'<script id="Cookiebot" src="//consent.cookiebot.com/uc.js" data-cbid="' + this.key + '" data-blockingmode="auto" type="text/javascript"></script>'}
+        @if.enable = ${!String.isBlank(this.key)}
+        @if.notInBackend = ${!site.context.inBackend}
+        @position = 'before head'
+    }
+}

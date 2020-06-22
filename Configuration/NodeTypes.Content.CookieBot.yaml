@@ -1,0 +1,11 @@
+'Avency.Neos.CookieBot:Content.CookieBot':
+  superTypes:
+    'Neos.Neos:Content': true
+  options:
+    fusion:
+      prototypeGenerator: ~
+  ui:
+    group: 'modules-special'
+    label: i18n
+    icon: 'icon-question-circle'
+    position: 3090
