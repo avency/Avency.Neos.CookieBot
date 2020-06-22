@@ -1,0 +1,15 @@
+{
+    "name": "avency/neos-cookiebot",
+    "description": "Neos CookieBot package",
+    "type": "neos-plugin",
+    "version": "1.0.2",
+    "license": "MIT",
+    "require": {
+        "neos/neos": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avency\\Neos\\CookieBot\\": "Classes/"
+        }
+    }
+}
