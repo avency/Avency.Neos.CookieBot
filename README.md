@@ -4,8 +4,9 @@
 
 ## Authors & Sponsors
 
-Benjamin Kentsch - benjamin.kentsch@avency.de  
-Michael Gerdemann - michael.gerdemann@avency.de
+Benjamin Kentsch - benjamin.kentsch@avency.de<br />
+Michael Gerdemann - michael.gerdemann@avency.de<br />
+Enes Erk - enes.erk@avency.de
 
 The development and the public-releases of this package is generously sponsored by our employer https://www.avency.de.
 
